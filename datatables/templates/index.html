@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.7/jq-2.2.4/pdfmake-0.1.27/dt-1.10.15/b-1.3.1/b-colvis-1.3.1/b-html5-1.3.1/b-print-1.3.1/cr-1.3.3/r-2.1.1/se-1.2.2/datatables.min.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/yeti/bootstrap.min.css" rel="stylesheet" integrity="sha384-HzUaiJdCTIY/RL2vDPRGdEQHHahjzwoJJzGUkYjHVzTwXFQ2QN/nVgX7tzoMW3Ov" crossorigin="anonymous">
+    <style>
+        .jumbotron{
+            padding:5px;
+        }
+    </style>
+    <title>Data Tables Upload/Export</title>
+  </head>
+
+  <body>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3>Datatables Example - Upload and Export</h3>
+                    <hr>
+                    <h5>
+                        This is a simple example of the Datatables plug-in for jQuery. You can upload any .xlsx, .csv, .txt, or .json file and it will
+                        display the data here. Any column can be sorted, rearranged, or toggled, and there's a universal search bar that will update the results as you type.
+                        You can export the table to a number of formats, csv, xlsx, pdf, copy it to your clipboard, or send it to a printer if you have one.
+                        I also made a similar example using Stock Market data, <a href="/stock-lookup">link here</a>
+                    </h5>
+                    <h6>
+                        by Jason E. Lopez |
+                        <a href="mailto:jasonlopez01gmail.com?Subject=Hello%20(from%20your%20Game%20of%20Life%20site)" target="_top">
+                            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                        </a>
+                        |
+                        <a href="https://www.linkedin.com/pub/jason-lopez/54/667/421">LinkedIn</a>
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row" id="body_block">
+            <div class="col-xs-12">
+                <div style="padding-bottom:5px">
+                    <label class="btn btn-default btn-sm btn-file">
+                        Upload a file <input type="file" id="u_file" style="display: none;">
+                    </label>
+                </div>
+                <table id="tbl" class="display" cellspacing="0" width="100%">
+                    <thead></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.11.0/xlsx.full.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.7/jq-2.2.4/pdfmake-0.1.27/dt-1.10.15/b-1.3.1/b-colvis-1.3.1/b-html5-1.3.1/b-print-1.3.1/cr-1.3.3/r-2.1.1/se-1.2.2/datatables.min.js"></script>
+    <script src="{{url_for('static', filename='tables.js')}}"></script>
+    <!-- end scripts -->
+
+  </body>
+
+</html>

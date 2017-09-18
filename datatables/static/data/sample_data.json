@@ -1,0 +1,114 @@
+[
+ {
+   "YO": "yo1",
+   "HERE": "here1",
+   "IS": "is1",
+   "MORE": "more1",
+   "FAKE": "06/20/2017 11:00am",
+   "DATA": 31
+ },
+ {
+   "YO": "yo2",
+   "HERE": "here2",
+   "IS": "is2",
+   "MORE": "more2",
+   "FAKE": "06/20/2017 12:00pm",
+   "DATA": 32
+ },
+ {
+   "YO": "yo3",
+   "HERE": "here3",
+   "IS": "is3",
+   "MORE": "more3",
+   "FAKE": "06/20/2017 3:00pm",
+   "DATA": 9
+ },
+ {
+   "YO": "yo4",
+   "HERE": "here4",
+   "IS": "is4",
+   "MORE": "more4",
+   "FAKE": "06/20/2017 6:00pm",
+   "DATA": 42
+ },
+ {
+   "YO": "yo5",
+   "HERE": "here5",
+   "IS": "is5",
+   "MORE": "more5",
+   "FAKE": "06/21/2017 8:00am",
+   "DATA": 44
+ },
+ {
+   "YO": "yo6",
+   "HERE": "here6",
+   "IS": "is6",
+   "MORE": "more6",
+   "FAKE": "06/21/2017 8:30am",
+   "DATA": 99
+ },
+ {
+   "YO": "yo7",
+   "HERE": "here7",
+   "IS": "is7",
+   "MORE": "more7",
+   "FAKE": "06/21/2017 12:00pm",
+   "DATA": 74
+ },
+ {
+   "YO": "yo8",
+   "HERE": "here8",
+   "IS": "is8",
+   "MORE": "more8",
+   "FAKE": "06/22/2017 9:00am",
+   "DATA": 16
+ },
+ {
+   "YO": "yo9",
+   "HERE": "here9",
+   "IS": "is9",
+   "MORE": "more9",
+   "FAKE": "06/22/2017 11:00am",
+   "DATA": 45
+ },
+ {
+   "YO": "yo10",
+   "HERE": "here10",
+   "IS": "is10",
+   "MORE": "more10",
+   "FAKE": "06/22/2017 5:00pm",
+   "DATA": 13
+ },
+ {
+   "YO": "yo11",
+   "HERE": "here11",
+   "IS": "is11",
+   "MORE": "more11",
+   "FAKE": "06/22/2017 6:30pm",
+   "DATA": 14
+ },
+ {
+   "YO": "yo12",
+   "HERE": "here12",
+   "IS": "is12",
+   "MORE": "more12",
+   "FAKE": "06/22/2017 8:00am",
+   "DATA": 80
+ },
+ {
+   "YO": "yo13",
+   "HERE": "here13",
+   "IS": "is13",
+   "MORE": "more13",
+   "FAKE": "06/22/2017 10:00am",
+   "DATA": 76
+ },
+ {
+   "YO": "yo14",
+   "HERE": "here14",
+   "IS": "is14",
+   "MORE": "more14",
+   "FAKE": "06/22/2017 11:00am",
+   "DATA": 24
+ }
+]

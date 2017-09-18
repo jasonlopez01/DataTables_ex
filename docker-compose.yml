@@ -7,7 +7,7 @@ services:
   website:
     #current dir .
     build: .
-    #cmd from DockerFile, with reload flag added for dev - will auto update with local changes, removed for prod
+    #cmd from DockerFile, with reload flag added for dev - will auto update with local changes, removed in Dockerfile for prod
     command: >
       gunicorn -b 0.0.0.0:8000
         --access-logfile -

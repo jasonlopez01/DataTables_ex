@@ -1,2 +1,2 @@
 DEBUG = True
-HELLO = "JLO!"
+HELLO = "settings.config_var_test!"

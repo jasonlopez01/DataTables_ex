@@ -78,7 +78,7 @@ def create_app():
 
     @app.route('/test'):
         def tester():
-            reeturn app.config.HELLO
+            return app.config.HELLO
 
     @app.route('/')
     def index():

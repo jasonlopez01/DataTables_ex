@@ -76,9 +76,9 @@ def create_app():
     # override config for prod from instance.config.py, silent allows it to be empty and not crash
     app.config.from_pyfile('settings.py', silent=True)
 
-    @app.route('/test'):
-        def tester():
-            return app.config.HELLO
+    @app.route('/test')
+    def tester():
+        return app.config['JLO']
 
     @app.route('/')
     def index():
